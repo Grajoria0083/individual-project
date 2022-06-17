@@ -1,0 +1,11 @@
+#rmv_Btn {
+    padding: 5px 10px;
+    margin-left: 220px;
+    background-color: #cbcbcb;
+    border-radius: 5px 10px;
+    border: none;
+}
+
+#total {
+    margin: 15px;
+}

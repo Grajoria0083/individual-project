@@ -1,0 +1,61 @@
+#container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 40px;
+    /* height: 500px; */
+    /* border: 1px solid; */
+    margin-top: 30px;
+}
+
+#container #item {
+    height: 440px;
+    width: 90%;
+    border: 1px solid #e5e5e5;
+    margin: auto;
+}
+
+#item:hover {
+    cursor: pointer;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#item img {
+    height: 40%;
+    width: 80%;
+    margin: 15px;
+    /* position: fixed; */
+}
+
+#item h6 {
+    margin: 0px 0px 0px 10px;
+}
+
+#item p,
+del {
+    margin: 5px 10px;
+    color: rgb(131, 122, 122);
+}
+
+del {
+    color: rgb(190, 173, 173);
+}
+
+#offerBtn {
+    box-sizing: border-box;
+    border-radius: 30px;
+    font-size: 11px;
+    padding: 0px 5px;
+    color: rgb(49, 129, 46);
+    border: 1px solid rgb(49, 129, 46);
+    margin-left: 15px;
+}
+
+#cart_Btn {
+    color: white;
+    background-color: red;
+    border-radius: 8px;
+    border: none;
+    padding: 5px;
+    margin-left: 95px;
+    cursor: pointer;
+}
